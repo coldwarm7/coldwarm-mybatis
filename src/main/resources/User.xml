@@ -37,4 +37,15 @@
     <delete id="deleteUser" parameterType="User">
         delete from user where id=#{id}
     </delete>
+
+
 </mapper>
+
+<!--<mapper namespace="User">-->
+<!--<resultMap id="resultListMap" type="User">-->
+    <!--<id column="id" property="id"/>-->
+    <!--<result column="userName" property="userName"/>-->
+    <!--<result column="userAge" property="userAge" />-->
+    <!--<result column="userAddress" property="userAddress"/>-->
+<!--</resultMap>-->
+<!--</mapper>-->
